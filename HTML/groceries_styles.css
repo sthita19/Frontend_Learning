@@ -1,0 +1,103 @@
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    /* Change the background color to your preferred color */
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    /* Change the font color to your preferred color */
+}
+
+#logo img {
+    width: 100px;
+    /* Adjust the logo width as needed */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* Change the font color to your preferred color */
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+    /* Add an underline on hover */
+}
+
+/* Add this part for the cart icon */
+#cart-icon {
+    float: right;
+    margin-top: 15px;
+    color: white;
+    /* Change the font color to your preferred color */
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+body:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    /* Change the background color on body hover */
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #e0e0e0;
+    /* Change the background color on table row hover */
+}
+
+/* Hover effect on table cells */
+tbody tr:hover td {
+    color: #333;
+    /* Change the font color on table cell hover */
+}
+
+/* Grid layout for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+tbody tr:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #e0e0e0;
+}
+
+td {
+    flex: 1 1 calc(33.33% - 20px);
+    padding: 10px;
+    text-align: center;
+}
